@@ -1,0 +1,192 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - MyPortfolio</title>
+
+  <!-- Google Fonts & Material Symbols Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+
+  <!-- Link tới file CSS tách riêng -->
+  <link rel="stylesheet" href="./aboutme.css"/>
+  <link rel="stylesheet" href=".//chung.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo-group">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDm2Mnrf_vzXgpuuvFf5WoflZGLv1XDNHtQ43fH7kdPgPdfzyQT-xn4_6mURvdiLbZX3RjGBoTOHnqGzYsn10cJan3WW7jPSuWUi2DaNKU9ggtsWxKmgl8QJNObfEYPpVvHT1JxIepcYmbrBNvEh8h_Z9DmFFQ6jPLvx55t7BmnrnRUZufJFfpbsE5D749sbtBGGbLW86xlSCMh6LZ_9h05uQvcT8AgZ8Slq8tgKk-6mVPxKBmVfHjg" alt="Logo" class="logo-img"/>
+        <span class="logo-text">MyPortfolio</span>
+      </div>
+
+      <nav class="nav-menu">
+         <nav class="nav-menu">
+  <a href="./main.html" class="nav-link">Home</a>
+  <a href="./aboutme.html" class="nav-link">About Me</a>
+  <a href="./skill.html" class="nav-link">My Skills</a>
+  <a href="./project.html" class="nav-link active">Projects</a>
+  <a href="./contact.html" class="nav-link">Contact</a>
+  <span class="nav-indicator"></span>
+  </div>
+      </nav>
+
+      
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+    
+    <!-- Breadcrumb Bar -->
+    <section class="breadcrumb-strip">
+      <div class="breadcrumb-container">
+        <nav class="breadcrumb-list">
+          <a href="main_2.html" style="color: var(--color-text-sub);">Home</a>
+          <span>/</span>
+          <span style="font-weight: 600; color: var(--color-text-main);">About Me</span>
+        </nav>
+        <a href="main_2.html" class="btn-back">
+          <span class="material-symbols-outlined" style="font-size: 18px;">arrow_back</span>
+          <span>Back to Home</span>
+        </a>
+      </div>
+    </section>
+
+    <div class="container">
+
+      <!-- 1. Profile Hero Section -->
+      <section class="hero-grid">
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <div class="badge-tag">
+            <span class="material-symbols-outlined" style="font-size: 16px;">school</span>
+            <span>CS Sophomore • Aspiring Front-End Developer</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, Minh Ten <span style="color: var(--color-primary); text-decoration: underline;">Do Anh Quan</span>.
+          </h1>
+
+          <p class="hero-desc-large">
+            Đây là project đầu tiên mình làm. Minh mong nó sẽ được điểm cao.
+          </p>
+
+          <p style="color: var(--color-text-sub);">
+            Mình tin là sau dự án này thì mình sẽ viết code tốt hơn nữa.
+          </p>
+
+          
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 16px;">
+          <div class="profile-card">
+            <div class="portrait-wrapper">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuArruIAlP7b2N7h3tNQLS087HtYT7OErzexVsgGkIHlQYfuIP_u3qLj-URsQNCXStSgMQccaOTMQh1vnLzDxsL7x81k57tn2E28CLFvFaRCPSuwAWcuoTeRDoqVa6XFNWvj_PR19hMIqs46A5UxkRSnmiX3Dvlps6ebKedcJX1n7sfLodIaLQiExO7bR__fwdSH5PmIyYKtDWPCfaCe4hY7LO2qr9NfZA9FrNLpiFQqbYm3C98BTUJe" alt="Alex Morgan"/>
+            </div>
+          </div>
+
+          
+        </div>
+      </section>
+
+      <!-- 2. Story & Journey Timeline -->
+      <section class="section-padding bg-sub-section" style="border-radius: 16px;">
+        <div class="section-header">
+          <span class="section-tag">
+            <span class="material-symbols-outlined" style="font-size: 18px;">timeline</span>
+            Evolution & Growth
+          </span>
+          <h2 class="section-title">Đây là timeline học của mình</h2>
+          <p style="color: var(--color-text-sub);">Mình đã học làm game, làm app, rồi làm web.</p>
+        </div>
+
+        <div>
+          <!-- Milestone 1 -->
+          <div class="timeline-item">
+            <div class="timeline-year-card">
+              <span class="year-number">2024</span>
+            </div>
+            <div class="timeline-content-card">
+              <h3 class="section-title" style="font-size: 20px;">Mình làm game</h3>
+              <p style="color: var(--color-text-sub); font-size: 15px;">
+                Mình đã sử dụng gamemaker để là trình tạo ra các tự game yêu thích.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 2 -->
+          <div class="timeline-item">
+            <div class="timeline-year-card">
+              <span class="year-number">2025</span>
+              
+            </div>
+            <div class="timeline-content-card">
+              <h3 class="section-title" style="font-size: 20px;">Mình lam app</h3>
+              <p style="color: var(--color-text-sub); font-size: 15px;">
+                Mình sử dụng visual studio code và QT designer để tạo ra những trang web có ích. Mình thấy lúc đó lập trình code rồi kéo thả làm màn hình rất dễ,
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 3 -->
+          <div class="timeline-item">
+            <div class="timeline-year-card">
+              <span class="year-number">2026</span>
+            </div>
+            <div class="timeline-content-card">
+              <h3 class="section-title" style="font-size: 20px;">Mình làm web</h3>
+              <p style="color: var(--color-text-sub); font-size: 15px;">
+                Mình vẫn sử dụng visual studio code để code nhưng lần này mình dùng một ngôn ngữ khác là HTML và CSS và mình phải tư căn chỉnh để làm màn hình.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <!-- 5. Bottom CTA Banner -->
+      <section class="cta-banner">
+        <div>
+          <span class="stat-label" style="color: var(--color-accent-bg);">Let's Connect</span>
+          <h2 class="section-title" style="font-size: 32px; margin-top: 8px;">Bạn có Muốn liên hê tôi không?</h2>
+        </div>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <a href="contact.html" class="btn-primary" style="background-color: var(--color-accent-bg); color: #00201d;">
+            <span class="material-symbols-outlined" style="font-size: 18px;">send</span>
+            <span>Contact Me</span>
+          </a>
+          <a href="project_2.html" class="btn-secondary" style="background-color: rgba(255,255,255,0.1); color: #ffffff;">
+            <span>Explore Projects</span>
+            <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div>
+        <span class="logo-text">MyPortfolio</span>
+        <p style="font-size: 14px; color: var(--color-text-sub);">© 2026 Designed by Student. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <span>/</span>
+        <a href="#">LinkedIn</a>
+        <span>/</span>
+        <a href="#">Email</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

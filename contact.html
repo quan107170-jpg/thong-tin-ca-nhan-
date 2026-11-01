@@ -1,0 +1,162 @@
+  HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyPortfolio - Confirmation</title>
+  
+  <!-- Fonts Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+
+  <!-- Link tới file CSS riêng -->
+  <link rel="stylesheet" href="./contact.css"/>
+   <link rel="stylesheet" href=".//chung.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo-group">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDm2Mnrf_vzXgpuuvFf5WoflZGLv1XDNHtQ43fH7kdPgPdfzyQT-xn4_6mURvdiLbZX3RjGBoTOHnqGzYsn10cJan3WW7jPSuWUi2DaNKU9ggtsWxKmgl8QJNObfEYPpVvHT1JxIepcYmbrBNvEh8h_Z9DmFFQ6jPLvx55t7BmnrnRUZufJFfpbsE5D749sbtBGGbLW86xlSCMh6LZ_9h05uQvcT8AgZ8Slq8tgKk-6mVPxKBmVfHjg" alt="Logo" class="logo-img"/>
+        <span class="logo-text">MyPortfolio</span>
+      </div>
+
+      <nav class="nav-menu">
+         <nav class="nav-menu">
+  <a href="./main.html" class="nav-link">Home</a>
+  <a href="./aboutme.html" class="nav-link">About Me</a>
+  <a href="./skill.html" class="nav-link">My Skills</a>
+  <a href="./project.html" class="nav-link active">Projects</a>
+  <a href="./contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+    <div class="hero-wrapper">
+      <div class="container-narrow">
+        
+        <!-- Status Pill -->
+        <div class="status-pill">
+          <span class="pulse-dot"></span>
+          <span class="status-text">DISPATCH #TRX-94821 // STATUS: OK</span>
+        </div>
+
+        <!-- Main Card -->
+        <div class="showcase-card">
+          <!-- Icon Graphic -->
+          <div class="graphic-icon">
+            <div class="icon-bg">
+              <div class="icon-main">
+                <span class="material-symbols-outlined" style="font-size: 36px;">done_all</span>
+              </div>
+              <div class="icon-sub">
+                <span class="material-symbols-outlined" style="font-size: 16px;">near_me</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Titles -->
+          <h1 class="title-large">Thank You! Your Message Has Been Sent.</h1>
+          <p class="desc-text">Thanks for reaching out! I've received your note and will get back to you within 24–48 hours. Looking forward to connecting.</p>
+
+          <!-- Receipt Log -->
+          <div class="receipt-box">
+            <div class="receipt-header">
+              <span class="label-sub">receipt_preview.log</span>
+              <span class="status-text" style="background: rgba(134, 242, 228, 0.5); padding: 2px 8px; border-radius: 12px;">HTTP 200 OK</span>
+            </div>
+
+            <div class="receipt-grid">
+              <div class="receipt-col">
+                <span class="label-title">Recipient</span>
+                <span class="label-value">Alex Morgan</span>
+                <span class="label-sub">student_portfolio@dev</span>
+              </div>
+              <div class="receipt-col">
+                <span class="label-title">Timestamp</span>
+                <span class="label-value" id="live-timestamp">Just now</span>
+                <span class="label-sub">Local client sync</span>
+              </div>
+              <div class="receipt-col">
+                <span class="label-title">Route Integrity</span>
+                <span class="label-value" style="color: var(--color-primary);">Direct Ingestion</span>
+                <span class="label-sub">Queue: Inbox</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="action-group">
+            <a href="#" class="btn-primary">
+              <span class="material-symbols-outlined">cottage</span>
+              <span>Return to Home Page</span>
+            </a>
+            <a href="#" class="btn-secondary">
+              <span class="material-symbols-outlined">edit_note</span>
+              <span>Send another message</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Explore Section -->
+        <div class="explore-section">
+          <div class="explore-grid">
+            
+            <a href="#" class="explore-card">
+              <h3 class="label-value" style="margin-bottom: 8px;">Browse My Projects</h3>
+              <p class="desc-text" style="font-size: 14px; margin-bottom: 16px;">Inspect live demos and interactive web applications built using modern web standards.</p>
+              <span class="status-text">3 Case Studies</span>
+            </a>
+
+            <a href="#" class="explore-card">
+              <h3 class="label-value" style="margin-bottom: 8px;">Read My Skills Breakdown</h3>
+              <p class="desc-text" style="font-size: 14px; margin-bottom: 16px;">Discover tools, frontend frameworks, and UI design methodologies I am learning.</p>
+              <span class="status-text">Core Stack</span>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div>
+        <span class="label-value">MyPortfolio</span>
+        <p class="desc-text" style="font-size: 14px; margin-bottom: 0;">© 2026 Designed by Student. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <span>/</span>
+        <a href="#">LinkedIn</a>
+        <span>/</span>
+        <a href="#">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script thời gian -->
+  <script>
+    (function initConfirmationTime() {
+      const el = document.getElementById('live-timestamp');
+      if (el) {
+        const now = new Date();
+        const timeString = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        el.textContent = 'Today at ' + timeString;
+      }
+    })();
+  </script>
+  
+</body>
+</html>

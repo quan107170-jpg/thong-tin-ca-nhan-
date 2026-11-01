@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kỹ Năng & Năng Khiếu - MyPortfolio</title>
+
+  <!-- Fonts Google & Material Symbols -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+
+  <!-- Link tới các file CSS -->
+  <link rel="stylesheet" href="./skill.css"/>
+  <link rel="stylesheet" href="./chung.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo-group">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDm2Mnrf_vzXgpuuvFf5WoflZGLv1XDNHtQ43fH7kdPgPdfzyQT-xn4_6mURvdiLbZX3RjGBoTOHnqGzYsn10cJan3WW7jPSuWUi2DaNKU9ggtsWxKmgl8QJNObfEYPpVvHT1JxIepcYmbrBNvEh8h_Z9DmFFQ6jPLvx55t7BmnrnRUZufJFfpbsE5D749sbtBGGbLW86xlSCMh6LZ_9h05uQvcT8AgZ8Slq8tgKk-6mVPxKBmVfHjg" alt="Logo" class="logo-img"/>
+        <span class="logo-text">MyPortfolio</span>
+      </div>
+
+      <nav class="nav-menu">
+        <a href="./main.html" class="nav-link">Home</a>
+        <a href="./aboutme.html" class="nav-link">About Me</a>
+        <a href="./skill.html" class="nav-link active">My Skills</a>
+        <a href="./project.html" class="nav-link">Projects</a>
+        <a href="./contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- 1. Breadcrumb Navigation -->
+      <div class="breadcrumb-nav">
+        <nav class="breadcrumb-list">
+          <a href="main.html">Home</a>
+          <span>/</span>
+          <span style="font-weight: 600; color: var(--color-text-main);">My Skills</span>
+        </nav>
+
+        <a href="main.html" class="btn-back">
+          <span class="material-symbols-outlined" style="font-size: 18px;">arrow_back</span>
+          <span>Back to Home</span>
+        </a>
+      </div>
+
+      <!-- 2. Skill Overview Header -->
+      <header class="skill-header-card">
+        <div class="badge-group">
+          <span class="badge-pill highlight">
+            <span class="material-symbols-outlined" style="font-size: 16px;">music_note</span>
+            Âm Nhạc & Nghệ Thuật
+          </span>
+          <span class="badge-pill">
+            <span class="material-symbols-outlined" style="font-size: 16px;">sports_basketball</span>
+            Thể Thao & Vận Động
+          </span>
+          <span class="badge-pill">
+            <span class="material-symbols-outlined" style="font-size: 16px;">sports_esports</span>
+            Giải Trí & Đồng Đội
+          </span>
+        </div>
+
+        <div>
+          <h1 class="skill-title">Năng Khiếu & Sở Thích Cá Nhân</h1>
+          <p class="skill-desc">
+            Không chỉ tập trung vào học tập và lập trình, mình còn dành thời gian rèn luyện bản thân qua âm nhạc, thể thao và giải trí để cân bằng cuộc sống cũng như phát triển tư duy toàn diện.
+          </p>
+        </div>
+
+        <!-- Quick Metrics Strip -->
+        <div class="metrics-row">
+          <div class="metric-card">
+            <span class="metric-label">Kinh Nghiệm Piano</span>
+            <span class="metric-value primary">5 Năm</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Môn Thể Thao Mê Nhất</span>
+            <span class="metric-value">Bóng Rổ</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Hình Thức Thư Giãn</span>
+            <span class="metric-value">Chơi Game</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">Tinh Thần Đồng Đội</span>
+            <span class="metric-value primary">Gắn Kết</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- 3. Core Topics Learned (Đã cập nhật theo 3 kỹ năng mới) -->
+      <section style="display: flex; flex-direction: column; gap: 16px;">
+        <div class="section-head">
+          <span class="section-tag">01 / Danh Mục Sở Thích</span>
+          <h2 class="section-title">Chi Tiết Năng Khiếu & Đam Mê</h2>
+        </div>
+
+        <div class="grid-3">
+          <!-- Skill Card 1: Piano -->
+          <div class="competency-card">
+            <div>
+              <div class="icon-box">
+                <span class="material-symbols-outlined" style="font-size: 28px;">piano</span>
+              </div>
+              <span class="section-tag" style="margin-top: 12px; display: block;">Năng Khiếu 01</span>
+              <h3 class="section-title" style="font-size: 20px;">Chơi Piano</h3>
+              <p style="color: var(--color-text-sub); font-size: 14px; margin-top: 8px;">
+                Mình đã tập luyện và gắn bó với Piano được 5 năm. Tiếng đàn giúp mình thư giãn tinh thần và giải tỏa căng thẳng sau những giờ học tập mệt mỏi.
+              </p>
+              <ul style="list-style: none; margin-top: 12px; display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--color-text-sub);">
+                <li style="display: flex; gap: 6px; align-items: flex-start;">
+                  <span class="material-symbols-outlined" style="font-size: 16px; color: var(--color-primary); margin-top: 2px;">check_circle</span>
+                  <span>Rèn luyện sự kiên nhẫn và tính tỉ mỉ khi luyện bài.</span>
+                </li>
+                <li style="display: flex; gap: 6px; align-items: flex-start;">
+                  <span class="material-symbols-outlined" style="font-size: 16px; color: var(--color-primary); margin-top: 2px;">check_circle</span>
+                  <span>Cảm nhận giai điệu và phát triển tư duy nghệ thuật.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="card-foot">
+              <span style="color: var(--color-text-sub);">Thời gian gắn bó</span>
+              <span style="font-weight: 700; color: var(--color-primary);">5 Năm Bền Bỉ</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 2: Bóng rổ -->
+          <div class="competency-card">
+            <div>
+              <div class="icon-box">
+                <span class="material-symbols-outlined" style="font-size: 28px;">sports_basketball</span>
+              </div>
+              <span class="section-tag" style="margin-top: 12px; display: block;">Năng Khiếu 02</span>
+              <h3 class="section-title" style="font-size: 20px;">Bóng Rổ</h3>
+              <p style="color: var(--color-text-sub); font-size: 14px; margin-top: 8px;">
+                Bóng rổ là bộ môn thể thao mình cực kỳ đam mê. Việc vận động trên sân giúp mình nâng cao sức khỏe, sự nhanh nhạy và tinh thần thể thao.
+              </p>
+              <ul style="list-style: none; margin-top: 12px; display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--color-text-sub);">
+                <li style="display: flex; gap: 6px; align-items: flex-start;">
+                  <span class="material-symbols-outlined" style="font-size: 16px; color: var(--color-primary); margin-top: 2px;">check_circle</span>
+                  <span>Tăng cường thể lực, chiều cao và độ phản xạ.</span>
+                </li>
+                <li style="display: flex; gap: 6px; align-items: flex-start;">
+                  <span class="material-symbols-outlined" style="font-size: 16px; color: var(--color-primary); margin-top: 2px;">check_circle</span>
+                  <span>Rèn luyện kỹ năng phối hợp chiến thuật đồng đội.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="card-foot">
+              <span style="color: var(--color-text-sub);">Mức độ yêu thích</span>
+              <span style="font-weight: 700; color: var(--color-primary);">Đam Mê Cháy Bỏng</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 3: Game -->
+          <div class="competency-card">
+            <div>
+              <div class="icon-box">
+                <span class="material-symbols-outlined" style="font-size: 28px;">sports_esports</span>
+              </div>
+              <span class="section-tag" style="margin-top: 12px; display: block;">Năng Khiếu 03</span>
+              <h3 class="section-title" style="font-size: 20px;">Chơi Game</h3>
+              <p style="color: var(--color-text-sub); font-size: 14px; margin-top: 8px;">
+                Chơi game mang lại cho mình những khoảnh khắc vui vẻ, tràn ngập tiếng cười cùng bạn bè sau những giờ làm việc và học tập căng thẳng.
+              </p>
+              <ul style="list-style: none; margin-top: 12px; display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--color-text-sub);">
+                <li style="display: flex; gap: 6px; align-items: flex-start;">
+                  <span class="material-symbols-outlined" style="font-size: 16px; color: var(--color-primary); margin-top: 2px;">check_circle</span>
+                  <span>Kết nối và giao lưu vui vẻ cùng bạn bè.</span>
+                </li>
+                <li style="display: flex; gap: 6px; align-items: flex-start;">
+                  <span class="material-symbols-outlined" style="font-size: 16px; color: var(--color-primary); margin-top: 2px;">check_circle</span>
+                  <span>Rèn luyện phản xạ nhanh và khả năng giải quyết tình huống.</span>
+                </li>
+              </ul>
+            </div>
+            <div class="card-foot">
+              <span style="color: var(--color-text-sub);">Mục đích chính</span>
+              <span style="font-weight: 700; color: var(--color-primary);">Kết Nối & Gắn Kết</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Interactive Code Workshop Section -->
+      <section style="display: flex; flex-direction: column; gap: 16px;">
+        <div class="section-head">
+          <span class="section-tag">02 / Không Gian Sáng Tạo</span>
+          <h2 class="section-title">Sự Kết Hợp Giữa Âm Nhạc & Thể Thao</h2>
+        </div>
+
+        <div class="grid-code-preview">
+          <!-- Code Editor View -->
+          <div class="code-editor">
+            <div class="editor-header">
+              <div class="editor-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span style="margin-left: 8px; color: #94a3b8; font-size: 12px;">life-balance.json</span>
+              </div>
+              <span style="color: #475569; font-size: 11px;">Profile Info</span>
+            </div>
+
+            <div class="editor-body">
+              <p style="color: #64748b; font-style: italic;">// Cân bằng cuộc sống cá nhân</p>
+              <p style="color: #89f5e7;">{</p>
+              <p style="padding-left: 16px; color: #e2e8f0;"><span style="color: #5eead4;">"music"</span>: <span style="color: #fef08a;">"Piano (5 năm kinh nghiệm)"</span>,</p>
+              <p style="padding-left: 16px; color: #e2e8f0;"><span style="color: #5eead4;">"sport"</span>: <span style="color: #fef08a;">"Bóng Rổ (Rèn luyện thể lực)"</span>,</p>
+              <p style="padding-left: 16px; color: #e2e8f0;"><span style="color: #5eead4;">"entertainment"</span>: <span style="color: #fef08a;">"Game (Giải trí cùng bạn bè)"</span>,</p>
+              <p style="padding-left: 16px; color: #e2e8f0;"><span style="color: #5eead4;">"goal"</span>: <span style="color: #fef08a;">"Không ngừng hoàn thiện bản thân mỗi ngày"</span></p>
+              <p style="color: #89f5e7;">}</p>
+            </div>
+          </div>
+
+          <!-- Live Rendered Preview Output -->
+          <div class="preview-box">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span class="section-tag" style="display: flex; align-items: center; gap: 6px;">
+                <span class="pulse-dot"></span> Đam Mê Nổi Bật
+              </span>
+              <span style="font-family: var(--font-code); font-size: 12px; color: var(--color-text-sub);">Preview</span>
+            </div>
+
+            <!-- Simulation Card -->
+            <div class="preview-card">
+              <div class="preview-img-wrapper">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0sl6t4CrgyJzvz7gpT1eHT97HCiS4Q-f5xh0N_MWnPvIUjif-Lwowx-dkYaEOAiX2AXr1ZXRK84q7_MU5z9QSQGn96KQpCtmaT7n7KdumWwKp9s9FUqhB9l81R7fRMLhbDEfqCd8v7CJ3bYczOXTqxMRT0FfX75mbsKxV5PP_cc_gEtN915WPNBfi6b3ekkENDmav1r_OHIqP7QJ4zofZB7L3ms2zSScrkph5xnysG7HHeodsNOPn" alt="Preview"/>
+                <span class="preview-badge">Sở Thích</span>
+              </div>
+              <div style="padding: 16px; display: flex; flex-direction: column; gap: 8px;">
+                <h3 class="section-title" style="font-size: 18px;">Giai Điệu & Vận Động</h3>
+                <p style="font-size: 14px; color: var(--color-text-sub);">Sự kết hợp hài hòa giúp tinh thần luôn thoải mái và tràn đầy năng lượng.</p>
+                <a href="main.html#projects" class="btn-action">Khám Phá Dự Án</a>
+              </div>
+            </div>
+
+            <div style="background-color: var(--bg-card); padding: 12px; border-radius: 8px; font-size: 13px; color: var(--color-text-sub); display: flex; align-items: center; gap: 8px;">
+              <span class="material-symbols-outlined" style="color: var(--color-primary); font-size: 20px;">favorite</span>
+              <span>Theo đuổi đam mê một cách tích cực và khoa học.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Milestones & Certificates -->
+      <section style="display: flex; flex-direction: column; gap: 16px;">
+        <div class="section-head">
+          <span class="section-tag">03 / Giá Trị Nhận Được</span>
+          <h2 class="section-title">Lợi Ích Từ Các Sở Thích</h2>
+        </div>
+
+        <div class="grid-2">
+          <!-- Card 1 -->
+          <div class="milestone-card">
+            <div class="icon-box" style="background-color: rgba(134, 242, 228, 0.3); shrink: 0;">
+              <span class="material-symbols-outlined" style="font-size: 28px;">psychology</span>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 4px;">
+              <span class="section-tag">Phát Triển Tư Duy</span>
+              <h3 class="section-title" style="font-size: 18px;">Rèn Luyện Tinh Thần Kiên Nhẫn</h3>
+              <p style="font-size: 14px; color: var(--color-text-sub);">
+                5 năm theo đuổi Piano đã giúp mình rèn luyện sự tập trung cao độ và tính kiên trì trước những thử thách phức tạp.
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="milestone-card">
+            <div class="icon-box" style="shrink: 0;">
+              <span class="material-symbols-outlined" style="font-size: 28px;">groups</span>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 4px;">
+              <span class="section-tag">Kỹ Năng Xã Hội</span>
+              <h3 class="section-title" style="font-size: 18px;">Kết Nối & Tinh Thần Đồng Đội</h3>
+              <p style="font-size: 14px; color: var(--color-text-sub);">
+                Nhờ vào Bóng rổ và Game, mình xây dựng được tinh thần làm việc nhóm nhịp nhàng cùng những kỷ niệm vui vẻ bên bạn bè.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Bottom Banner CTA -->
+      <div class="cta-banner">
+        <div>
+          <h3 class="section-title" style="font-size: 20px;">Bạn muốn tìm hiểu thêm về các dự án của mình?</h3>
+          <p style="font-size: 15px; color: var(--color-text-sub);">Ghé thăm trang sản phẩm để xem những web app mà mình đã tự tay thiết kế.</p>
+        </div>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <a href="main.html" class="btn-action-outline">Quay Lại Trang Chủ</a>
+          <a href="project.html" class="btn-action" style="padding: 10px 20px; font-size: 14px; width: auto;">Xem Dự Án</a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div>
+        <span class="logo-text">MyPortfolio</span>
+        <p style="font-size: 14px; color: var(--color-text-sub);">© 2026 Designed by Student. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <span>/</span>
+        <a href="#">LinkedIn</a>
+        <span>/</span>
+        <a href="#">Email</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

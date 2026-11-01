@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Classroom Website - Project Details</title>
+  
+  <!-- Fonts Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+
+  <!-- Link tới file CSS dùng chung -->
+  <link rel="stylesheet" href="./project.css"/>
+   <link rel="stylesheet" href=".//chung.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-container">
+      <div class="logo-group">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDm2Mnrf_vzXgpuuvFf5WoflZGLv1XDNHtQ43fH7kdPgPdfzyQT-xn4_6mURvdiLbZX3RjGBoTOHnqGzYsn10cJan3WW7jPSuWUi2DaNKU9ggtsWxKmgl8QJNObfEYPpVvHT1JxIepcYmbrBNvEh8h_Z9DmFFQ6jPLvx55t7BmnrnRUZufJFfpbsE5D749sbtBGGbLW86xlSCMh6LZ_9h05uQvcT8AgZ8Slq8tgKk-6mVPxKBmVfHjg" alt="Logo" class="logo-img"/>
+        <span class="logo-text">MyPortfolio</span>
+      </div>
+
+     <nav class="nav-menu">
+        <a href="./main.html" class="nav-link">Home</a>
+        <a href="./aboutme.html" class="nav-link">About Me</a>
+        <a href="./skill.html" class="nav-link">My Skills</a>
+        <a href="./project.html" class="nav-link active">Projects</a>
+        <a href="./contact.html" class="nav-link">Contact</a>
+        <span class="nav-indicator"></span>
+      </nav>
+      
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+    <div class="container">
+      
+      <!-- Breadcrumb Navigation -->
+      <nav class="breadcrumb-nav">
+        <div class="breadcrumb-list">
+          <a href="main.html#projects" class="btn-back">
+            <span class="material-symbols-outlined" style="font-size: 16px;">arrow_back</span>
+            <span>Projects</span>
+          </a>
+          <span>/</span>
+          <a href="main.html">Home</a>
+          <span>/</span>
+          <span style="color: var(--color-text-main); font-weight: 600;">Classroom Website</span>
+        </div>
+        
+        <div class="status-tag">
+          <span class="pulse-dot"></span>
+          <span>v1.2.0 • Live Archive</span>
+        </div>
+      </nav>
+
+      <!-- Project Header -->
+      <section class="project-header-box">
+        <div class="project-title-group">
+          <span class="category-label">
+            <span class="material-symbols-outlined" style="font-size: 18px;">school</span>
+            Academic Capstone • Front-End Foundations
+          </span>
+          <h1 class="project-title">Classroom Website Portal</h1>
+          <p class="project-desc">
+            A responsive educational resource website designed for high school teachers and students, delivering zero-latency homework links, timetables, and organized study packs.
+          </p>
+        </div>
+
+        <div class="project-actions">
+          <a href="https://example.com" target="_blank" class="btn-primary">
+            <span>Live Demo</span>
+            <span class="material-symbols-outlined" style="font-size: 18px;">open_in_new</span>
+          </a>
+          <a href="https://github.com" target="_blank" class="btn-secondary">
+            <span class="material-symbols-outlined" style="font-size: 18px;">code</span>
+            <span>GitHub Repository</span>
+          </a>
+        </div>
+
+        <!-- Metadata Chips Grid -->
+        <div class="meta-grid">
+          <div class="meta-item">
+            <span class="meta-label">
+              <span class="material-symbols-outlined" style="font-size: 15px; color: var(--color-primary);">schedule</span> Duration
+            </span>
+            <span class="meta-value">2 Weeks</span>
+            <span style="font-size: 13px; color: var(--color-text-sub);">Final Project</span>
+          </div>
+
+          <div class="meta-item">
+            <span class="meta-label">
+              <span class="material-symbols-outlined" style="font-size: 15px; color: var(--color-primary);">person</span> Role
+            </span>
+            <span class="meta-value">Lead Builder</span>
+            <span style="font-size: 13px; color: var(--color-text-sub);">Solo Front-End & UI</span>
+          </div>
+
+          <div class="meta-item">
+            <span class="meta-label">
+              <span class="material-symbols-outlined" style="font-size: 15px; color: var(--color-primary);">terminal</span> Stack
+            </span>
+            <span class="meta-value">HTML5 • CSS3</span>
+            <span style="font-size: 13px; color: var(--color-text-sub);">Flexbox, Git</span>
+          </div>
+
+          <div class="meta-item">
+            <span class="meta-label">
+              <span class="material-symbols-outlined" style="font-size: 15px; color: var(--color-primary);">verified</span> Status
+            </span>
+            <span class="meta-value" style="color: var(--color-primary);">Completed</span>
+            <span style="font-size: 13px; color: var(--color-text-sub);">Grade A+ (98/100)</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Visual Showcase Browser Window -->
+      <section class="browser-frame">
+        <div class="browser-bar">
+          <div class="browser-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <div class="browser-address">
+            <span class="material-symbols-outlined" style="font-size: 14px; color: var(--color-accent-bg);">lock</span>
+            <span>https://lincoln-high.edu/room-304/portal</span>
+          </div>
+          <div style="color: #bec6e0;">
+            <span class="material-symbols-outlined" style="font-size: 18px;">more_vert</span>
+          </div>
+        </div>
+
+        <div class="browser-img-wrapper">
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaq2KlwLcCMpNE0WBUI1zAA-h9zBMgm9HoI9pgCcbkbI0rLaT0J7KgsSBqIZOw7WoFiPuRV8V5wg7F0KG9_CoBTDeClq7iwa4dRYWvQT5h-paO9akB3tJhA437twSkX9-0QnjXSmHw_GPmKtPJEnXaKUWNq7OCLoZ-XLwq1LSVRwOS85GVwtBunV30x-9AzqxFU2nfpn5cyRSMVO04-olxU77SxLpPdMprh1U_FHcBCyglglbPi5qf" alt="Classroom Website Preview"/>
+        </div>
+      </section>
+
+      <!-- Problem Statement & Specs Grid -->
+      <section class="grid-2">
+        <div class="card">
+          <span class="category-label">Problem Statement</span>
+          <h2 class="section-title">Tackling Information Scatter in High School Academics</h2>
+          <p class="project-desc" style="font-size: 16px;">
+            In our AP Biology and Chemistry block, our instructor shared resources through disconnected channels. The Classroom Website Portal was conceived as a self-hosted, lightweight home base providing instant visibility into today's syllabus and upcoming deadlines.
+          </p>
+        </div>
+
+        <div class="card-sub">
+          <h2 class="section-title" style="font-size: 20px;">Project Directives</h2>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 14px; color: var(--color-text-sub);">
+            <li style="display: flex; gap: 8px; align-items: center;">
+              <span class="material-symbols-outlined" style="color: var(--color-primary); font-size: 18px;">check_circle</span>
+              <span>Zero heavy external dependencies (pure HTML/CSS).</span>
+            </li>
+            <li style="display: flex; gap: 8px; align-items: center;">
+              <span class="material-symbols-outlined" style="color: var(--color-primary); font-size: 18px;">check_circle</span>
+              <span>High-contrast color scheme compliant with WCAG 2.1 AA.</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Engineering Highlights (Key Features Grid) -->
+      <section style="display: flex; flex-direction: column; gap: 16px;">
+        <div>
+          <span class="category-label">Engineering Highlights</span>
+          <h2 class="section-title">Key Technical Features</h2>
+        </div>
+
+        <div class="feature-grid">
+          <!-- Feature 1 -->
+          <div class="feature-card">
+            <div>
+              <span class="category-label" style="margin-bottom: 8px;">01 / FLEXBOX</span>
+              <h3 class="section-title" style="font-size: 20px;">Fully Responsive Flexbox Layout</h3>
+              <p style="color: var(--color-text-sub); font-size: 15px; margin-top: 8px;">
+                Replaced static float layouts with dynamic Flexbox containers ensuring content stays natural across phone, tablet, and desktop screens.
+              </p>
+            </div>
+            <div class="tag-list">
+              <span class="tag">flex-wrap</span>
+              <span class="tag">Mobile-first</span>
+            </div>
+          </div>
+
+          <!-- Feature 2 -->
+          <div class="feature-card">
+            <div>
+              <span class="category-label" style="margin-bottom: 8px;">02 / INTERACTION</span>
+              <h3 class="section-title" style="font-size: 20px;">Interactive Weekly Schedule Table</h3>
+              <p style="color: var(--color-text-sub); font-size: 15px; margin-top: 8px;">
+                Engineered a schedule matrix with CSS sticky headers that keep subject labels anchored during mobile horizontal scrolls.
+              </p>
+            </div>
+            <div class="tag-list">
+              <span class="tag">Sticky Table Headers</span>
+              <span class="tag">Active Hour Badge</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Code Snippet Section -->
+      <section>
+        <div class="code-box">
+          <div class="code-header">
+            <span>styles/schedule-table.css</span>
+            <span style="color: var(--color-accent-bg);">CSS3 Custom Properties</span>
+          </div>
+<pre><code>/* Sticky Table Headers for horizontal mobile scroll */
+.schedule-container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.schedule-table th {
+  position: sticky;
+  top: 0;
+  background-color: var(--bg-sub);
+  z-index: 2;
+}</code></pre>
+        </div>
+      </section>
+
+      <!-- Bottom Navigation -->
+      <section style="padding-top: 24px; border-top: 1px solid rgba(0, 0, 0, 0.05);">
+        <div class="card-sub" style="flex-direction: row; justify-content: space-between; align-items: center;">
+          <a href="main.html#projects" class="btn-secondary">
+            <span class="material-symbols-outlined" style="font-size: 18px;">arrow_back</span>
+            <span>Back to Projects Gallery</span>
+          </a>
+          
+          <a href="main.html#projects" class="btn-primary">
+            <span>Next Project</span>
+            <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span>
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div>
+        <span class="logo-text">MyPortfolio</span>
+        <p style="font-size: 14px; color: var(--color-text-sub);">© 2026 Designed by Student. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">GitHub</a>
+        <span>/</span>
+        <a href="#">LinkedIn</a>
+        <span>/</span>
+        <a href="#">Email</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
